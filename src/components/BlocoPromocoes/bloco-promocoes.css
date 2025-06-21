@@ -1,0 +1,228 @@
+.bloco-promocoes {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 15px;
+    border-radius: 8px 8px;
+    background-color: #F2F4EC;
+
+    border: #479F76 solid 1px;
+
+    margin-bottom: 15px;
+}
+
+.bloco-promocoes .cabecalho {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    padding: 5px 10px;
+}
+
+.bloco-promocoes .cabecalho .ver-todas {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    text-decoration: none;
+    color: black;
+}
+
+.bloco-promocoes .corpo {
+    display: flex;
+    width: 100%;
+
+    padding-right: 8px;
+
+    overflow-y: hidden;
+    /* overflow: scroll; */
+    white-space: nowrap;
+}
+
+.bloco-promocoes .corpo .container-card {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+
+    margin: 10px 10px;
+    border-radius: 15px;
+
+    background-color: #FFF;
+
+    /* box-shadow: 2px 2px 2px #E6E6E6, -2px -2px 2px #E6E6E6; */
+}
+
+.bloco-promocoes .corpo .container-card:hover {
+    /* border: #479F76 solid 1px; */
+
+    box-shadow: 2px 2px 2px #E6E6E6, -2px -2px 2px #E6E6E6;
+}
+
+.bloco-promocoes .corpo .container-card .image-card {
+    height: 110px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco-promocoes .corpo .container-card .image-card .post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco-promocoes .corpo .container-card .image-card .post img {
+    /* width: 50px; */
+    height: 90px;
+}
+
+.bloco-promocoes .corpo .container-card .image-card .addPost {
+    text-decoration: none;
+    color: #479F76;
+
+    cursor: pointer;
+}
+
+.bloco-promocoes .corpo .container-card .image-card .addPost img {
+    /* width: 50px; */
+    height: 60px;
+}
+
+.bloco-promocoes .corpo .container-card .conteudo-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-left: 12px;
+}
+
+.bloco-promocoes .corpo .container-card .conteudo-card h5 {
+    color: #479F76;
+}
+
+.bloco-promocoes .corpo .container-card .conteudo-card .avaliacoes p {
+    font-size: 14px;
+    color: #BA9B48;
+    margin: 0px 0px 6px 0px;
+
+    cursor: pointer;
+}
+
+.bloco-promocoes .corpo .container-card .conteudo-card .timePost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    cursor: pointer;
+}
+
+.bloco-promocoes .corpo .container-card .conteudo-card .timePost p {
+    font-size: 13px;
+    color: #808080;
+
+    cursor: pointer;
+}
+
+.bloco-promocoes .corpo .container-card .conteudo-card .timePost img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+    cursor: pointer;
+}
+
+.bloco-promocoes .corpo .container-card .conteudo-card .starCon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    margin: 8px 0px;
+
+    cursor: pointer;
+}
+
+.bloco-promocoes .corpo .container-card .conteudo-card .starCon .starConIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.bloco-promocoes .corpo .container-card .buttonVerPromo {
+    align-self: center;
+    margin: 0px 10px;
+
+    cursor: pointer;
+}
+
+.bloco-promocoes .corpo .container-card .buttonVerPromo img {
+    width: 50px;
+}
+
+.bloco-promocoes .corpo div .statusPromoExpired {
+    background-color: red;
+
+    padding: 5px 10px;
+    border-radius: 0px 15px 0px 12px;
+
+    align-self: flex-start;
+
+    margin-top: 10px;
+    margin-left: -89.5px;
+
+    cursor: pointer;
+}
+
+.bloco-promocoes .corpo div .statusPromoActive {
+    background-color: #479F76;
+
+    padding: 5px 10px;
+    border-radius: 0px 15px 0px 12px;
+
+    align-self: flex-start;
+
+    margin-top: 10px;
+    margin-left: -60.5px;
+
+    cursor: pointer;
+}
+
+.bloco-promocoes .corpo div .statusPromoExpired p {
+    color: #FFF;
+    font-size: 13px;
+}
+
+.bloco-promocoes .corpo div .statusPromoActive p {
+    color: #FFF;
+    font-size: 13px;
+}
+
+@media (max-width: 1200px) {
+
+    .bloco-promocoes {
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .bloco-promocoes {
+        width: 1100px;
+    }
+
+}

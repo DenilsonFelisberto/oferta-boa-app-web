@@ -1,0 +1,91 @@
+.container-inicio {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cabecalho-inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo-inicio {
+    margin-right: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-inicio h1 {
+    color: #479F76;
+    margin-bottom: 5px;
+}
+
+.text-inicio span {
+    color: #41423f;
+    font-size: 18px;
+}
+
+.area-botao {
+    background-color: #FFF;
+    border: #479F76 solid 2px;
+    border-radius: 100px;
+    padding: 5px;
+
+    margin-top: 15px;
+}
+
+.area-botao button {
+    background-color: #479F76;
+    border-radius: 100px;
+    border: 0;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-botao button img {
+    width: 25px;
+    height: 25px;
+}
+
+.area-texto-avancar {
+    margin-top: 2px;
+}
+
+.area-texto-avancar span {
+    color: grey;
+    font-size: 12.5px;
+}
+
+@media (max-width: 1200px) {
+
+    .img-logo-inicio img {
+        width: 75px;
+    }
+
+    .text-inicio h1 {
+        font-size: 23px;
+    }
+
+    .text-inicio span {
+        font-size: 13px;
+    }
+
+    .area-texto-avancar span {
+        color: grey;
+        font-size: 11px;
+    }
+
+}

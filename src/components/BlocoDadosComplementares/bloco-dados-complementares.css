@@ -1,0 +1,147 @@
+.bloco-dados-complementares {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 15px;
+
+    /* border-radius: 8px 8px;
+    background-color: #f0f0f0;
+
+    border: grey solid 1px; */
+
+    border-left: #479F76 solid 3px;
+    border-radius: 10px;
+
+    margin-bottom: 15px;
+
+    box-shadow: 2px 2px 2px #E6E6E6, -2px -2px 2px #E6E6E6;
+}
+
+.bloco-dados-complementares .cabecalho {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    padding: 5px 10px;
+}
+
+.bloco-dados-complementares .cabecalho .editar-dados {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    text-decoration: none;
+    color: black;
+}
+
+.bloco-dados-complementares .corpo {
+    display: flex;
+    width: 100%;
+
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    padding: 5px 10px;
+}
+
+.bloco-dados-complementares .corpo .endereco {
+    width: 50%;
+}
+
+.bloco-dados-complementares .corpo .endereco h5 {
+    margin-bottom: 10px;
+}
+
+.bloco-dados-complementares .corpo .endereco p {
+    margin-bottom: 10px;
+    color: #479F76;
+}
+
+.bloco-dados-complementares .corpo .outros {
+    width: 50%;
+}
+
+.bloco-dados-complementares .corpo .outros h5 {
+    margin-bottom: 10px;
+}
+
+.bloco-dados-complementares .corpo .outros p {
+    margin-bottom: 10px;
+    color: #479F76;
+}
+
+.bloco-dados-complementares .segmentos {
+    display: flex;
+    width: 100%;
+
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+
+    padding: 5px 10px;
+}
+
+.bloco-dados-complementares .segmentos h5 {
+    margin-bottom: 10px;
+}
+
+.bloco-dados-complementares .segmentos div {
+    display: flex;
+    /* width: 100%; */
+
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: row;
+}
+
+.bloco-dados-complementares .segmentos div .segs {
+    background-color: #FFF;
+    border-radius: 10px;
+
+    padding: 5px 10px;
+
+    margin-right: 5px;
+
+    border: #479F76 solid 2px;
+}
+
+
+@media (max-width: 1200px) {
+
+    .bloco-dados-complementares {
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .bloco-dados-complementares {
+        width: 1100px;
+    }
+
+}
+
+@media (max-width: 570px) {
+
+    .bloco-dados-complementares .corpo {
+        flex-direction: column;
+    }
+
+    .bloco-dados-complementares .corpo .endereco {
+        width: 100%;
+    }
+
+    .bloco-dados-complementares .corpo .outros {
+        width: 100%;
+    }
+
+}

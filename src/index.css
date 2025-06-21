@@ -1,0 +1,47 @@
+::-webkit-scrollbar-track {
+    background-color: #FFF;
+    border-radius: 1em;
+}
+::-webkit-scrollbar {
+    border-radius: 1em;
+    width: 8px;
+    height: 8px;
+    background: #FFF;
+}
+::-webkit-scrollbar-thumb {
+    background: #479F76;
+    border-radius: 1em;
+}
+
+@font-face{
+    font-family: 'Segoe Print';
+    src: url('/public/segoe-print-2.ttf');
+}
+
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('/public/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Ubuntu";
+    background-color: #FFF;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* .app{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */

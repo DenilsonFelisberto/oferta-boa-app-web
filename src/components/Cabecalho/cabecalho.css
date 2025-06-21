@@ -1,0 +1,83 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    margin-bottom: 15px;
+}
+
+.cabecalho .barraDeOpcoes {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 3px 3px;
+}
+
+.cabecalho .barraDeOpcoes .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cabecalho .barraDeOpcoes .logo a {
+    margin-right: 5px;
+}
+
+.cabecalho .barraDeOpcoes .logo a img{
+    width: 60px;
+}
+
+.cabecalho .barraDeOpcoes .logo h2 {
+    color: #479F76;
+
+    cursor: pointer;
+}
+
+.cabecalho .barraDeOpcoes .opcoesUser {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cabecalho .barraDeOpcoes .opcoesUser h5 {
+    font-weight: 600;
+    color: #479F76;
+
+    cursor: pointer;
+}
+
+.cabecalho .barraDeOpcoes .opcoesUser a {
+    margin-left: 5px;
+}
+
+.cabecalho .barraDeOpcoes .opcoesUser a img {
+    width: 40px;
+}
+
+.cabecalho .linha {
+    width: 100%;
+    height: 1px;
+    background-color: #479F76;
+}
+
+@media (max-width: 1200px) {
+
+    .cabecalho {
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .cabecalho {
+        width: 1100px;
+    }
+
+}

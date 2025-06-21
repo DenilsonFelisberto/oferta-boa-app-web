@@ -1,0 +1,161 @@
+.cadastro-promocao {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.cadastro-promocao .titulo {
+    width: 100%;
+    padding: 15px 5px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cadastro-promocao .campos {
+    width: 100%;
+}
+
+.cadastro-promocao .campos .area-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-bottom: 10px;
+}
+
+.cadastro-promocao .campos .area-input h5 {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.cadastro-promocao .campos .area-input:not(.descricao) div {
+    width: 100%;
+    height: 46px;
+    background-color: #F2F4EC;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    /* box-shadow: 2px 2px 2px #E6E6E6, -2px 2px 2px #E6E6E6; */
+
+    border: #479F76 solid 1px;
+}
+
+.cadastro-promocao .campos .descricao div {
+    width: 100%;
+
+    background-color: #F2F4EC;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    padding: 15px 15px;
+
+    /* box-shadow: 2px 2px 2px #E6E6E6, -2px 2px 2px #E6E6E6; */
+
+    border: #479F76 solid 1px;
+}
+
+.cadastro-promocao .campos .descricao textarea::placeholder {
+    color: rgba(128, 128, 128, 0.719);
+
+    font-family: "Ubuntu";
+    font-size: 15px;
+}
+
+.cadastro-promocao .campos .area-input input {
+    width: 100%;
+    height: 42px;
+
+    background-color: transparent;
+    border: none;
+    color: black;
+    outline: none;
+
+    font-size: 15px;
+    font-family: 'Ubuntu';
+}
+
+.cadastro-promocao .campos .area-input textarea {
+    width: 100%;
+    height: 42px;
+
+    background-color: transparent;
+    border: none;
+    color: black;
+    outline: none;
+    font-size: 15px;
+}
+
+.cadastro-promocao .campos .area-input input::placeholder {
+    color: rgba(128, 128, 128, 0.719);
+
+    font-size: 15px;
+}
+
+.cadastro-promocao .campos .area-input button:not(.add-palavra-chave) {
+    width: 100%;
+    height: 46px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-family: 'Ubuntu';
+    color: #FFF;
+
+    background-color: #479F76;
+
+    box-shadow: 2px 2px 2px #E6E6E6, -2px 2px 2px #E6E6E6;
+}
+
+.cadastro-promocao .campos .area-input .add-palavra-chave {
+    width: 30%;
+    height: 46px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-family: 'Ubuntu';
+    color: #FFF;
+
+    background-color: #479F76;
+
+    box-shadow: 2px 2px 2px #E6E6E6, -2px 2px 2px #E6E6E6;
+}
+
+.cadastro-promocao .campos .palavras-chave small {
+    margin-top: 5px;
+    text-align: left;
+
+    padding: 0px 5px;
+    font-size: small;
+}
+
+.btn-confirm-modal {
+
+    background-color: #FFF;
+    border-radius: 10px;
+
+    padding: 10px 15px;
+
+    margin-right: 5px;
+
+    border: #479F76 solid 2px;
+
+    font-weight: bold;
+    font-family: "Ubuntu";
+    font-size: medium;
+}

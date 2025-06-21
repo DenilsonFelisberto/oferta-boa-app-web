@@ -1,0 +1,162 @@
+.container-principal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-login-cadastro {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.abas-login-cadastro {
+    width: 500px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.abas-login-cadastro a {
+    cursor: pointer;
+}
+
+.activeOption {
+    width: 100%;
+    height: 3px;
+    background-color: #479F76;
+}
+
+.opcButton1 {
+    width: 50%;
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.opcButton1 a {
+    width: 100%;
+    background-color: #FFF;
+    color: #41423f;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    text-align: center;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    border: 0;
+    border-radius: 5px;
+}
+
+.opcButton2 {
+    width: 50%;
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.opcButton2 a {
+    width: 100%;
+    background-color: #FFF;
+    color: #41423f;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    text-align: center;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    border: 0;
+    border-radius: 5px;
+}
+
+.cabecalho-login-cadastro {
+    width: 500px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 50px;
+}
+
+.img-logo-login-cadastro {
+    margin-right: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo-login-cadastro img {
+    /* width: 50%; */
+}
+
+.text-login-cadastro h1 {
+    color: #479F76;
+    margin-bottom: 5px;
+}
+
+.text-login-cadastro span {
+    color: #41423f;
+    font-size: 18px;
+}
+
+.conteudo-login-cadastro {
+    width: 500px;
+
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 615px) {
+
+    .abas-login-cadastro {
+        width: 90%;
+    }
+
+    .cabecalho-login-cadastro {
+        width: 90%;
+    }
+
+    .conteudo-login-cadastro {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .img-logo-login-cadastro img {
+        width: 75px;
+    }
+
+    .text-login-cadastro h1 {
+        font-size: 23px;
+    }
+    
+    .text-login-cadastro span {
+        font-size: 13px;
+    }
+
+}

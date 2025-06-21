@@ -1,0 +1,105 @@
+.container-login-loja {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-login-loja .area-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 25px;
+}
+
+.container-login-loja .area-input div {
+    width: 100%;
+    height: 46px;
+    background-color: #F2F4EC;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border: solid 1px #479F76;
+
+    /* box-shadow: 2px 2px 2px #E6E6E6, -2px 2px 2px #E6E6E6; */
+}
+
+.container-login-loja .area-input img {
+    margin: 0 12px 0 10px;
+    width: 22px;
+}
+
+.container-login-loja .area-input input {
+    width: 100%;
+    height: 42px;
+
+    background-color: transparent;
+    border: none;
+    color: black;
+    outline: none;
+    font-size: 17px;
+}
+
+.container-login-loja .area-input input::placeholder {
+    color: rgba(128, 128, 128, 0.719);
+}
+
+.container-login-loja .area-input div .ver-senha {
+    height: 42px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.container-login-loja .area-input div .ver-senha img {
+    margin: 0 12px 0 10px;
+    width: 22px;
+}
+
+.container-login-loja .area-input button {
+    width: 100%;
+    height: 46px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-family: 'Ubuntu';
+    color: #FFF;
+
+    background-color: #479F76;
+
+    box-shadow: 2px 2px 2px #E6E6E6, -2px 2px 2px #E6E6E6;
+}
+
+/* Mensagens */
+
+.container-login-loja .message {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+    font-size: 16px;
+    font-family: 'Ubuntu';
+}
+
+.container-login-loja .message .fieldSuccess {
+    color: #70ad47;
+}
+
+.container-login-loja .message .fieldError {
+    color: #ff6347;
+}
