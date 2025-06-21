@@ -1,0 +1,25 @@
+import React,{ useState } from 'react';
+
+export default function TesteScroll() {
+    
+    return(
+        <div>
+
+        </div>
+    )
+}
+
+>>Trabalhar com roteamento de rotas
+npm install react-router-dom
+
+>>Biblioteca de itens - React Icons
+npm install react-icons
+
+>>Instalar Axios
+npm install axios
+
+>>Instalar menu horizontal
+npm i react-horizontal-scrolling-menu
+
+>>Instalar SwithAlert 2
+npm install --save sweetalert2 sweetalert2-react-content
